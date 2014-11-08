@@ -3,34 +3,39 @@ body {
 }
 
 .mug-container {
-    margin: 20px;
+  margin-right: 0;
+  margin-top: 22px;
 }
 
 .main-features {
     border: solid 1px #cccccc;
-    padding: 20px 0 20px 20px;
-    margin: 20px;
+    padding-left: 30px;
+    padding-top: 10px;
+    margin-top: 29px;
+}
+
+.main-features-header {
 }
 
 .header-main {
   color: #666666;
   text-align: center;
+  font-size: 48px;
+  padding-top: 22px
 }
 
 .header-default {
-  color: #F07C17;
-}
-
-.article-default {
-  padding: 0 20px 20px 20px;
-}
-
-p {
-  color: grey;
-  font-size: 16px;
-  line-height: 175%;
+  color: #f07c17;
 }
 
 h2 {
-  margin-bottom: 30px;
+  font-size: 26px;
+  margin-bottom: 35px;
+}
+
+p {
+  color: #666666;
+  font-size: 16px;
+  line-height: 1.75;
+  padding-top: 20px;
 }
