@@ -1,0 +1,62 @@
+.options-header {
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#hero-selector {
+  text-align: left;
+}
+
+h1.options-header {
+  font-family: 'Nunito', sans-serif;;
+  font-weight: 200;
+  font-size: 1.8em;
+}
+
+.options-button {
+  margin: 20px 10px;
+  width: 180px;
+  height: 50px;
+}
+
+.options-buttons-container {
+  width: 180px;
+}
+
+.options-mode-panel {
+  margin: 20px 10px;
+  width: 180px;
+}
+
+.options-row {
+  height: 30px !important;
+  cursor: pointer;
+}
+
+.option-image {
+  height: 20px;
+  width: 30px;
+}
+
+#option-img-desc {
+  vertical-align: middle;
+}
+
+.table > tbody > tr > td {
+  vertical-align: middle;
+  height: 30px !important;
+}
+
+td.selection-indicator {
+  width: 30px;
+  background-color: grey;
+}
+
+td.selector-indicator-selected {
+  background-image: linear-gradient(to bottom,#5cb85c 0,#419641 100%);
+}
+
+.selected-row-header {
+  color: green !important;
+}

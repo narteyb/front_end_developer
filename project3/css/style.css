@@ -1,0 +1,70 @@
+body {
+    text-align: center;
+}
+
+#main-window {
+  width: 910px;
+  height: 606px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#options {
+  width: 200px;
+  height: 536px;
+  border: solid 1px #ff6600;
+  float: left;
+  margin-top: 50px;
+
+  /* IE10 Consumer Preview */
+  background-image: -ms-radial-gradient(center, circle farthest-corner, #FFA763 0%, #754A18 100%);
+
+  /* Mozilla Firefox */
+  background-image: -moz-radial-gradient(center, circle farthest-corner, #FFA763 0%, #754A18 100%);
+
+  /* Opera */
+  background-image: -o-radial-gradient(center, circle farthest-corner, #FFA763 0%, #754A18 100%);
+
+  /* Webkit (Safari/Chrome 10) */
+  background-image: -webkit-gradient(radial, center center, 0, center center, 497, color-stop(0, #FFA763), color-stop(1, #754A18));
+
+  /* Webkit (Chrome 11+) */
+  background-image: -webkit-radial-gradient(center, circle farthest-corner, #FFA763 0%, #754A18 100%);
+
+  /* W3C Markup, IE10 Release Preview */
+  background-image: radial-gradient(circle farthest-corner at center, #FFA763 0%, #754A18 100%);
+}
+
+#canvas {
+  width: 505px;
+  height: 606px;
+  float: left;
+}
+
+#stats {
+  width: 200px;
+  height: 536px;
+  float: left;
+  margin-top: 50px;
+  border: solid 1px #0098ff;
+
+  /* Note: This gradient may render differently in browsers that don't support the unprefixed gradient syntax */
+
+  /* IE10 Consumer Preview */
+  background-image: -ms-linear-gradient(top left, #162375 500%, #03011C 1000%);
+
+  /* Mozilla Firefox */
+  background-image: -moz-linear-gradient(top left, #162375 500%, #03011C 1000%);
+
+  /* Opera */
+  background-image: -o-linear-gradient(top left, #162375 500%, #03011C 1000%);
+
+  /* Webkit (Safari/Chrome 10) */
+  background-image: -webkit-gradient(linear, left top, right bottom, color-stop(5, #162375), color-stop(10, #03011C));
+
+  /* Webkit (Chrome 11+) */
+  background-image: -webkit-linear-gradient(top left, #162375 500%, #03011C 1000%);
+
+  /* W3C Markup, IE10 Release Preview */
+  background-image: linear-gradient(to bottom right, #162375 500%, #03011C 1000%);
+}
